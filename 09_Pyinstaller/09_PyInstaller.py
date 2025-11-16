@@ -42,7 +42,7 @@ class MyApp(QMainWindow): # QMainWindow를 상속받아야 GUI가 정상 작동�
         # 기존 코드 끝
 
         # ---- GUI가 작동하기 위해 추가/수정된 부분 ----
-        self.setWindowTitle('신수 뉴스 검색기')
+        self.setWindowTitle('뉴스 검색기')
         self.setGeometry(100, 100, 800, 600)
 
         central_widget = QWidget()
